@@ -35,4 +35,4 @@ jobs:
       with:
         app-name: Data-security-atelier
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: $(ls target/*.war)  # Adjust if the WAR file has a specific name
+        package: $(ls /home/runner/work/Atelier-Phishing/Atelier-Phishing/target/Facebook_clone-1.0-SNAPSHOT.war)  # Adjust if the WAR file has a specific name
