@@ -3,7 +3,7 @@ name: Build and Deploy Java EE App to Azure Web App
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
