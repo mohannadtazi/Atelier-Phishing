@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Atelier</title>
+    <link
+            rel="icon"
+            href="https://media.discordapp.net/attachments/922463169778188291/1242495097405440050/profile.jpeg?ex=664e0b3b&is=664cb9bb&hm=8ea20bd9e71a22c24938affbb360121342b43391655e26f781db93f74de5cbd9&=&format=webp&width=571&height=571"
+    />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            position: relative;
+        }
+        h1 {
+            color: #333;
+            margin-top: 1em;
+        }
+        p {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 1.5em;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            width: 50px;
+            height: 50px;
+        }
+        .logo-left {
+            left: 10px;
+        }
+        .logo-right {
+            right: 10px;
+        }
+    </style>
+    <script>
+        function redirectToJSP() {
+            window.location.href = 'login.jsp';
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <img src="https://cdn.discordapp.com/attachments/922463169778188291/1242494457614696551/Logos-01.png?ex=664e0aa3&is=664cb923&hm=94790c7772e3b9c3f28d53603d215c47d976b0904c388600898e9472980486df&" alt="Logo 1" class="logo logo-left">
+    <img src="https://cdn.discordapp.com/attachments/922463169778188291/1242494457832542278/Picture1.png?ex=664e0aa3&is=664cb923&hm=b4acaa467210f238c44147f1942a704e5470c360dfd334928f5950c0ca6d2c4a&" alt="Logo 2" class="logo logo-right">
+    <h1>Phishing Awareness Atelier</h1>
+    <p>This is just an atelier for Data Security about phishing. Don't share any personal data.</p>
+    <button onclick="redirectToJSP()">Proceed</button>
+</div>
+</body>
+</html>
