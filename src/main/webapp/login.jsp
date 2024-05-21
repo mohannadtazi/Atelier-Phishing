@@ -43,6 +43,7 @@
                         type="text"
                         class="email-box"
                         name="login"
+                        aria-placeholder="Please never share your credentials"
                         placeholder="Email address or phone number"
                 />
               </div>
